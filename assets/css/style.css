@@ -62,7 +62,7 @@ textarea {
 
 /* Back-to-top styling */
 .back-to-top {
-background: none;
+background: transparent;
 margin: 0;
 position: fixed;
 bottom: 0;
@@ -78,6 +78,10 @@ color: #ffffff;
 
 .back-to-top i {
   font-size: 20px;
+}
+
+.back-to-top i:hover {
+	color: #8F1530;
 }
 
 /* ==========================================================================
@@ -143,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu h1.logo a:hover {
-	color: #f85c37;
+	color: #8F1530;
 }
 
 .menu img.logo {
@@ -163,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu a:hover {
-	color: #ffffff;
+	color: #8F1530;
 }
 
 .menu a:active {
@@ -315,22 +319,6 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 
-.name-label {
-	width: 60px;
-	height: 60px;
-	margin: 0 auto 45px;
-	border-top: 1px solid #000;
-	background: url(../img/name-label.png) center bottom no-repeat;
-	background-size: 35px 35px;
-}
-
-.name-zig {
-	width: 73px;
-	height: 17px;
-	margin: 38px 0 38px;
-	background: url(../img/name-zig.png) 0 0 no-repeat;
-	background-size: 73px 17px;
-}
 
 .name-desc h2 {
 	font-family: 'Oswald', sans-serif;

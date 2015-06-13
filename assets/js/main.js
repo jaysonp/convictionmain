@@ -10,6 +10,10 @@
 
 })(jQuery)
 
+
+
+//Back-to-top Button
+
 jQuery(document).ready(function() {
     var offset = 250;
     var duration = 300;
