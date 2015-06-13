@@ -73,11 +73,11 @@ z-index: 100;
 display: none;
 text-decoration: none;
 color: #ffffff;
-background-color: #f3f3f3;
+/*background-color: #f3f3f3; */
 }
 
 .back-to-top i {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 /* ==========================================================================
