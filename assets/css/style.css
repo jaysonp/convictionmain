@@ -60,6 +60,25 @@ textarea {
 	text-align: center
 }
 
+/* Back-to-top styling */
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+background-color: #f3f3f3;
+}
+
+.back-to-top i {
+  font-size: 40px;
+}
 
 /* ==========================================================================
    General styles
