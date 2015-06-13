@@ -123,7 +123,7 @@
 				<div class="col-lg-8-offset-2 centered">
 					<h1>Production Standards</h1>
 					<i class="fa fa-star"></i><p><a href="http://www.moleculelabs.com">Molecule Labs</a><br/><small><a href="http://www.moleculelabs.com/molecule-made/">#MOLECULEMADE</a></small></p>
-					<p>Conviction eLiquids are #MOLECULEMADE! which means that they are produced using GMP compliant practices in a US-Based ISO 7 Certified Clean Room. In an industry filled with products made in unsanitary, makeshift labs, #MOLECULEMADE is your protection. Conviction eLiquids are <strong>proudly</strong> produced under strict manufacturing and cleanliness standards to ensure optimum taste and purity.
+					<p>Conviction eLiquids are #MOLECULEMADE! which means that they are produced using GMP compliant practices in a US-Based ISO 7 Certified Clean Room. In an industry filled with products made in unsanitary, makeshift labs, #MOLECULEMADE is your protection. Conviction eLiquids are <strong>proudly</strong> produced under strict manufacturing and cleanliness standards to ensure optimum taste and purity.</p>
 				</div><!-- /col-lg-8 -->
 			</div><! --/row -->
 		</div><! --/container -->
@@ -132,13 +132,13 @@
 	
 	
 	<! -- SERVICE SECTION -->
-	<section id="contact" name="contact"></section>
+	<section name="contact"></section>
 	<! -- CONTACT SEPARATOR -->
 	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
 	
 	<div id="contactwrap">
 		<div class="container">
-			<div class="row">
+			<div id="contact" class="row">
 				<div class="col-lg-6">
 					<p>Tell us what you think!</p>
 					<p></p>
@@ -157,12 +157,13 @@
 				<div class="col-lg-6">
 					<form role="form">
 					  <div class="form-group">
-					    <label for="exampleInputName1">Your Name</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-					    <label for="exampleInputText1">Message</label>
-					    <textarea class="form-control" rows="3"></textarea>
+					  	<form action="scripts/contactmail.php" id="contactForm" method="post" enctype="multipart/form-data">
+						    <label for="first_name">Your Name</label>
+						    <input type="text" class="form-control" id="first_name" placeholder="Enter name">
+						    <label for="email">Email address</label>
+						    <input type="email" class="form-control"  placeholder="Enter email">
+						    <label for="comments">Message</label>
+					    	<textarea id="comments" class="form-control" rows="3"></textarea>
 					  </div>
 					  <button type="submit" class="btn btn-default">Submit</button>
 					</form>
