@@ -42,13 +42,14 @@ audio:not([controls]) {
 template {
   display: none;
 }
+/*
 a {
   background: transparent;
 }
 a:active,
 a:hover {
   outline: 0;
-}
+} */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -288,12 +289,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #CA1E3E;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #8B122D;
   text-decoration: underline;
 }
 a:focus {

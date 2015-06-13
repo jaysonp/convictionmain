@@ -67,20 +67,20 @@ margin: 0;
 position: fixed;
 bottom: 0;
 right: 0;
-width: 70px;
-height: 70px;
+width: 50px;
+height: 50px;
 z-index: 100;
 display: none;
 text-decoration: none;
-color: #ffffff;
-/*background-color: #f3f3f3; */
+/*color: #ffffff;
+background-color: #f3f3f3; */
 }
 
 .back-to-top i {
   font-size: 20px;
 }
 
-.back-to-top i:hover {
+.fa i:hover {
 	color: #8F1530;
 }
 
