@@ -151,15 +151,14 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<form role="form">
 					  <div class="form-group">
-					  	<form action="assets/scripts/contactmail.php" id="contactForm" method="post" enctype="multipart/form-data">
+					  	<form action="contactform.php" id="contactForm" method="post" enctype="multipart/form-data">
 						    <label for="first_name">Your Name</label>
-						    <input type="text" class="form-control" id="first_name" placeholder="Enter name" tabindex=1 />
+						    <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name">
 						    <label for="email">Email address</label>
-						    <input type="email" class="form-control"  placeholder="Enter email" tabindex=2 />
+						    <input type="text" name="Email" id="email" class="form-control"  placeholder="Your Email">
 						    <label for="comments">Message</label>
-					    	<textarea id="comments" class="form-control" rows="3" placeholder="Message" tabindex=3 /> </textarea>
+					    	<textarea name="Comment" id="comment" class="form-control" rows="3" placeholder="Your Message"></textarea>
 					  </div>
 					  <input type="submit" class="btn btn-default"></button>
 					</form>
