@@ -23,8 +23,8 @@ $comment = "testing test stuff";
 //Connect to DB
 
 $servername = "localhost";
-$username = "root";
-$password = "2wsxcde3";
+$username = "";
+$password = "";
 $dbname = "contact_form";
 
 // Create connection
@@ -47,7 +47,7 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 
 sleep(2);
-echo "<meta http-equiv='refresh' content=\"0; url=/convictionmain/index.html#contact\">";
+echo "<meta http-equiv='refresh' content=\"0; url=/index.html#contact\">";
 
 
 ?>
